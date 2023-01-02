@@ -1,0 +1,1 @@
+I, Nout Reusken, have read and understood the Spring CSE12 syllabus and Personal Responsibility Document. nreusken 6 April 2020
