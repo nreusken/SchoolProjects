@@ -1,0 +1,127 @@
+Results:
+
+Where p = 0.5 and n = 5
+        Bob tossed more heads in 512 trials       
+        The realtive frequency: 0.512
+
+Where p = 0.5 and n = 10
+        Bob tossed more heads in 491 trials       
+        The realtive frequency: 0.491
+
+Where p = 0.5 and n = 50
+        Bob tossed more heads in 501 trials
+        The realtive frequency: 0.501
+
+Where p = 0.5 and n = 100
+        Bob tossed more heads in 467 trials
+        The realtive frequency: 0.467
+
+Where p = 0.2 and n = 5
+        Bob tossed more heads in 395 trials
+        The realtive frequency: 0.395
+
+Where p = 0.2 and n = 10
+        Bob tossed more heads in 459 trials
+        The realtive frequency: 0.459
+
+Where p = 0.2 and n = 50
+        Bob tossed more heads in 500 trials
+        The realtive frequency: 0.5
+
+Where p = 0.2 and n = 100
+        Bob tossed more heads in 440 trials
+        The realtive frequency: 0.44
+
+Where p = 0.3 and n = 5
+        Bob tossed more heads in 430 trials
+        The realtive frequency: 0.43
+
+Where p = 0.3 and n = 10
+        Bob tossed more heads in 473 trials
+        The realtive frequency: 0.473
+
+Where p = 0.3 and n = 50
+        Bob tossed more heads in 487 trials
+        The realtive frequency: 0.487
+
+Where p = 0.3 and n = 100
+        Bob tossed more heads in 486 trials
+        The realtive frequency: 0.486
+
+Where p = 0.4 and n = 5
+        Bob tossed more heads in 496 trials
+        The realtive frequency: 0.496
+
+Where p = 0.4 and n = 10
+        Bob tossed more heads in 462 trials
+        The realtive frequency: 0.462
+
+Where p = 0.4 and n = 50
+        Bob tossed more heads in 494 trials
+        The realtive frequency: 0.494
+
+Where p = 0.4 and n = 100
+        Bob tossed more heads in 487 trials
+        The realtive frequency: 0.487
+
+Where p = 0.6 and n = 5
+        Bob tossed more heads in 540 trials
+        The realtive frequency: 0.54
+
+Where p = 0.6 and n = 10
+        Bob tossed more heads in 525 trials
+        The realtive frequency: 0.525
+
+Where p = 0.6 and n = 50
+        Bob tossed more heads in 504 trials
+        The realtive frequency: 0.504
+
+Where p = 0.6 and n = 100
+        Bob tossed more heads in 509 trials
+        The realtive frequency: 0.509
+
+Where p = 0.7 and n = 5
+        Bob tossed more heads in 547 trials
+        The realtive frequency: 0.547
+
+Where p = 0.7 and n = 10
+        Bob tossed more heads in 545 trials
+        The realtive frequency: 0.545
+
+Where p = 0.7 and n = 50
+        Bob tossed more heads in 534 trials
+        The realtive frequency: 0.534
+
+Where p = 0.7 and n = 100
+        Bob tossed more heads in 515 trials
+        The realtive frequency: 0.515
+
+Where p = 0.8 and n = 5
+        Bob tossed more heads in 613 trials
+        The realtive frequency: 0.613
+
+Where p = 0.8 and n = 10
+        Bob tossed more heads in 531 trials
+        The realtive frequency: 0.531
+
+Where p = 0.8 and n = 50
+        Bob tossed more heads in 520 trials
+        The realtive frequency: 0.52
+
+Where p = 0.8 and n = 100
+        Bob tossed more heads in 521 trials
+        The realtive frequency: 0.521
+
+Does the probability that Bob's tosses more heads than Alice's now seem to depend on 𝑛? 
+
+It really does seem to depend on the value of n. 
+The bigger n gets, the samller the relative frequency gets.
+This is because the bigger n gets the smaller the affect of the one extra throw will be.
+If we had a function like 2n or even n^2 for the throws that Bob gets,
+than the probability of winning would be in favor of Bob.
+
+
+Does that probability seem to approach a limiting value as 𝑛 becomes large? 
+Form a conjecture regarding this probability.
+
+The probability does seem to approach a limitiing value of 0.5. This is due the fact that when n becomes larger. The one extra throw becomes insignificant compared to n other throws.
