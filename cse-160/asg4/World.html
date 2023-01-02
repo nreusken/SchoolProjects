@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+    
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br><br>
+    Normal:
+    <button type="button" id="normalOn">On</button>
+    <button type="button" id="normalOff">Off</button>
+    <br><br>
+    Light:
+    <button type="button" id="lightOn">On</button>
+    <button type="button" id="lightOff">Off</button>
+    <br>
+    <p>To see the pandas perform their dance:</p>
+    <p>Performance:</p>
+    <button type="button" id="animationOn">On</button>
+    <button type="button" id="animationOff">Off</button>
+    <br><br>
+    Light: X: <input type="range" min="-500" max="500" value="0" class="slider" id="lightSliderX">
+    Y: <input type="range" min="-500" max="500" value="100" class="slider" id="lightSliderY">
+    Z: <input type="range" min="-500" max="500" value="200" class="slider" id="lightSliderZ">
+    <br><br>
+    Top Arm: <input type="range" min="215" max="270" value="225" class="slider" id="armSlider">
+    <br><br>
+    Bottom Arm: <input type="range" min="-60" max="10" value="-45" class="slider" id="bottomArmSlider">
+   
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Sphere.js"></script>
+    <script src="World.js"></script>
+  
+  </body>
+</html>

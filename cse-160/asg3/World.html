@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="1000" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br><br>
+    To place a block hold shift and click on the canvas.
+    <br>
+    <p>Story:</p>
+    <p>Turn around to see the pandas perform their dance:</p>
+    <p>Performance:</p>
+    <button type="button" id="animationOn">On</button>
+    <button type="button" id="animationOff">Off</button>
+    <br><br>
+    Top Arm: <input type="range" min="215" max="270" value="225" class="slider" id="armSlider">
+    <br><br>
+    Bottom Arm: <input type="range" min="-60" max="10" value="-45" class="slider" id="bottomArmSlider">
+    <br><br>
+    
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="World.js"></script>
+  </body>
+</html>

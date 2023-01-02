@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br><br>
+    <p>Animation:</p>
+    <button type="button" id="animationOn">On</button>
+    <button type="button" id="animationOff">Off</button>
+    <br><br>
+    Top Arm: <input type="range" min="215" max="270" value="225" class="slider" id="armSlider">
+    <br><br>
+    Bottom Arm: <input type="range" min="-60" max="10" value="-45" class="slider" id="bottomArmSlider">
+    <br><br>
+    Camera Angle: <input type="range" min="-180" max="180" value="5" class="slider" id="angleSlider">
+    <br><br>
+    Hold shift down and click on the canvas to do a special animation!
+    <br>
+    Also you can drag your mouse across the canvas to rotate the animal
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="BlockyAnimal.js"></script>
+  </body>
+</html>
